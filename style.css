@@ -42,7 +42,7 @@ nav {
     padding: 0px;
 }
 
-.li {
+.li.li {
     text-decoration: none;
     margin: 10px;
     color: white;
