@@ -107,7 +107,7 @@ nav a:hover {
     text-align: right;
     margin-bottom: 5px;
     margin-right: 20%;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .infoP {
@@ -115,14 +115,14 @@ nav a:hover {
     margin-right: 20%;
     margin-left: 50%;
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .techs {
     color: #f2cb05;
     margin-left: 10%;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .techs-list {
@@ -130,7 +130,7 @@ nav a:hover {
     margin-left: 10%;
     margin-bottom: 200px;
     padding: 0;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
@@ -196,4 +196,9 @@ nav a:hover {
 .itens-list a {
     text-decoration: none;
     color: white;
+    transition: 0.5s;    
+}
+
+.itens-list a:hover {
+    color: black;
 }

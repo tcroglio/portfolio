@@ -200,4 +200,9 @@ nav a:hover {
 .itens-list a {
     text-decoration: none;
     color: white;
+    transition: 0.5s;
+}
+
+.itens-list a:hover {
+    color: black;
 }
