@@ -14,7 +14,8 @@
 }
 
 body {
-    background-color: black;
+    background: rgb(74,74,74);
+    background: linear-gradient(326deg, rgba(74,74,74,1) 22%, rgba(0,0,0,1) 100%);
 }
 
 
@@ -49,11 +50,14 @@ nav {
     transition: 0.30s;
 }
 
-nav a:hover {
+a.without {
+    color: black;
+} 
+
+.with:hover {
     opacity: 0.7;
     color: white;
 }
-
 /* MAIN */
 
 .content {
