@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title> Tiago Roglio | Portfólio </title>
     <link rel="shortcut icon" href="assets/favicon-portfolio.png" type="">
-
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -20,6 +20,21 @@
             <li> <a class="with" href="https://github.com/tcroglio" target="blank"> GITHUB PROFILE </a> </li>
         </ul>
     </nav>
+
+    <div class="newPortfolio" id="newPortfolio">
+        <div class="hideNewPortfolio">
+            <a class="hide" id="arrow" href="#" onclick="showAndHide()"> > </a>
+        </div>
+        <div class="flex" id="containerNewPortfolio">
+            <h1>ACESSE MEU NOVO PORTFÓLIO</h1>
+            <span>EM DESENVOLVIMENTO</span>
+            <br>
+            <span>Clique no link e confira</span>
+            <div class="linkNewPortfolio">
+                <a class="linkButton" target="_blank" href="https://www.tiagoroglio.com.br/newPortfolio">Portfólio >>> </a>
+            </div>
+        </div>
+    </div>
 
     <div class="content">
         <img class="image"
@@ -88,3 +103,16 @@
 
 </html>
 
+<script>
+    const containerNewPortfolio = document.getElementById('containerNewPortfolio');
+
+    function showAndHide() {
+        if (containerNewPortfolio.style.display === 'none') {
+            containerNewPortfolio.style.display = 'flex';
+            arrow.textContent = '>';
+        } else {
+            arrow.textContent = '<';
+            containerNewPortfolio.style.display = 'none';
+        }
+    }
+</script>
